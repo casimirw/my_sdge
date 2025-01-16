@@ -509,7 +509,7 @@ def plot_sdge_hourly(filename, zone, pcia_year, solar):
     # daily_hourly_3d_plot(daily=daily)
 
     plans_and_charges = dict()
-    rates_path = os.path.join(pwd, "sdge_rates_20240301.yaml")
+    rates_path = os.path.join(pwd, "sdge_rates_20241001.yaml")
     rates = load_yaml(rates_path)
     c = SDGECaltulator(daily, rates, zone=zone, pcia_year=pcia_year, solar=solar)
 
